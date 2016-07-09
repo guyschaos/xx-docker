@@ -1,0 +1,8 @@
+version: '2'
+services:
+  xx-mini:
+    image: guyschaos/xx-docker
+    volumes:
+      - ./manual.ini:/xx-mini/data/manual.ini
+    ports: 
+      - "8964:8087"
